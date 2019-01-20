@@ -13,7 +13,7 @@ mas install 918858936 # Airmail 3
 # Keys
 mkdir ~/.ssh/
 ln -s ~/Dropbox/Apps/sshconfig ~/.ssh/config
-
+ssh-keygen -f ~/.ssh/github
 
 # Terminal
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
