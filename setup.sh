@@ -9,3 +9,7 @@ brew install mas
 # Keys
 mkdir ~/.ssh/
 cp ~/Dropbox/config ~/.ssh/
+
+# Terminal
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+cp ~/Dropbox/zshrc ~/.zshrc
